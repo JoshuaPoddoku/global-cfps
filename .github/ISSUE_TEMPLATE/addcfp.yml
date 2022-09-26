@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for asking Mish for a Tip. Tune into a Live stream or read Mish's articles on DEV for great GitHub tips.
+        Thanks for adding the CFP and helping the community!
   - type: input
     id: Name
     attributes:
