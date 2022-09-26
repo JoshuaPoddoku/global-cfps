@@ -19,16 +19,20 @@ body:
   - type: checkboxes
     id: dates
     attributes:
-      label: When is the Event?
+      label: Last date to submit CFP
       description: Select appropriate label. Ex, "Sep22 - Includes CFPs closing by September 2022"
       options:
-        - label: sep22
+        - label: Sep 22
           required: false
-        - label: oct22
+        - label: Oct 22
           required: false
-        - label: nov22
+        - label: Nov 22
           required: false
-        - label: dec22
+        - label: Dec 22
           required: false
-        - label: jan23
+        - label: Jan 23
+          required: false
+        - label: Feb 23
+          required: false
+        - label: Mar 23
           required: false
