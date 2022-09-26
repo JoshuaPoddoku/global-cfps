@@ -20,7 +20,7 @@ body:
     id: dates
     attributes:
       label: When is the event?
-      description: Select appropriate label. Ex, "Sep22: Includes CFPs closing by September 2022"
+      description: Select appropriate label. Ex, "Sep22 - Includes CFPs closing by September 2022"
       options:
         - label: sep22
           required: false
