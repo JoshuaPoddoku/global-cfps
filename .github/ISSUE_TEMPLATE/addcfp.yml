@@ -1,1 +1,34 @@
-empty
+name: Add CFP
+description: Add CFPs to the list by creating an issue 
+title: "[Deadline: Date, Month]: Event Name City/Online"
+labels: [open]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for asking Mish for a Tip. Tune into a Live stream or read Mish's articles on DEV for great GitHub tips.
+  - type: input
+    id: Name
+    attributes:
+      label: 
+      description: What is the event name and CFP URL?
+      placeholder: ex. OSA 2022 Online: https://forms.gle/mxPdPfVYEo2ATMHp9
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: dates
+    attributes:
+      label: When is the event?
+      description: Select appropriate label. Ex, "Sep22: Includes CFPs closing by September 2022"
+      options:
+        - label: sep22
+          required: false
+        - label: oct22
+          required: false
+        - label: nov22
+          required: false
+        - label: dec22
+          required: false
+        - label: 2022
+          required: false
