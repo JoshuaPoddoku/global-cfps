@@ -12,7 +12,7 @@ body:
     attributes:
       label: 
       description: What is the event name and CFP URL?
-      placeholder: ex. OSA 2022 Online: https://forms.gle/mxPdPfVYEo2ATMHp9
+      placeholder: ex. OSA 2022 Online: https://..
     validations:
       required: true
 
