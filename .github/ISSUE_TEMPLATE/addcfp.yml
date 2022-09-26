@@ -30,5 +30,5 @@ body:
           required: false
         - label: dec22
           required: false
-        - label: 2022
+        - label: jan23
           required: false
