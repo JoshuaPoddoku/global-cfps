@@ -10,7 +10,7 @@ body:
   - type: input
     id: Name
     attributes:
-      label: 
+      label: What is the Event, CFP URL
       description: What is the event name and CFP URL?
       placeholder: ex. OSA 2022 Online - https..
     validations:
@@ -19,7 +19,7 @@ body:
   - type: checkboxes
     id: dates
     attributes:
-      label: When is the event?
+      label: When is the Event?
       description: Select appropriate label. Ex, "Sep22 - Includes CFPs closing by September 2022"
       options:
         - label: sep22
